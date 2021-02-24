@@ -1,0 +1,7 @@
+" Fuzzyfinder config
+
+" To use fzf in vim
+set rtp+=/usr/local/opt/fzf
+
+" Shortcut for opening the Files finder
+nnoremap <silent> <leader>f :Files<CR>

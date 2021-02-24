@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/robocop/projects/mijnbaopt/core/mijnbaopt/report'
+let g:netrw_dirhist_2='/home/robocop/projects/mijnbaopt/core'
+let g:netrw_dirhist_3='/home/robocop/projects/mijnbaopt/core/mijnbaopt'
+let g:netrw_dirhist_4='/home/robocop/projects/mijnbaopt/core/mijnbaopt/report'
+let g:netrw_dirhist_5='/home/robocop/projects/mijnbaopt/core/tests'
+let g:netrw_dirhist_6='/home/robocop/projects/mijnbaopt/core/tests/report'
+let g:netrw_dirhist_7='/home/robocop/projects/siren'
+let g:netrw_dirhist_8='/home/robocop/projects/siren/data_scripts'
