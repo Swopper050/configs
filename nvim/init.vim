@@ -12,6 +12,9 @@ Plug 'jeetsukumaran/vim-pythonsense'
 " Python identation done according to pep8
 Plug 'Vimjas/vim-python-pep8-indent'
 
+" Python syntax highlighting
+Plug 'vim-python/python-syntax'
+
 " Custom snippets
 Plug 'sirver/ultisnips'
 
