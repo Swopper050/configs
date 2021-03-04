@@ -53,7 +53,7 @@ set wildignore+=.pyc
 set wildignore+=*/.git/*
 
 "Set line marker at column 80
-set colorcolumn=79,120
+set colorcolumn=88,100
 
 set backspace=indent,eol,start
 

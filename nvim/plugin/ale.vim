@@ -21,5 +21,8 @@ let g:ale_sign_column_always = 1
 " Don't open window for errors
 let g:ale_open_list = 0
 
+" 3 seconds before running ale
+let g:ale_completion_delay = 3000
+
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠️'
