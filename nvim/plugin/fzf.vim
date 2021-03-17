@@ -7,4 +7,4 @@ set rtp+=/usr/local/opt/fzf
 nnoremap <silent> <leader>f :Files<CR>
 
 " Ignore random files
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+" let $FZF_DEFAULT_COMMAND = 'fd --type f'
