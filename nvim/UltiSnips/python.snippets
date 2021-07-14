@@ -1,6 +1,6 @@
 # python debugger (pdb)
 snippet pdb
-import pdb; pdb.set_trace()$1
+__import__("pdb").set_trace()$1
 endsnippet
 
 
@@ -14,9 +14,14 @@ endsnippet
 
 # Main script init
 snippet ifmain
-def main():
+import argparse
+
+
+def main(args):
 	$1
 
 if __name__ == "__main__":
-	main()
+	parser = argparse.ArgumentParser()
+	args = parser.parse_args()
+	main(args)
 endsnippet

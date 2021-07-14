@@ -32,6 +32,8 @@ Plug 'dense-analysis/ale'
 call plug#end()
 
 
+let g:python_host_prog='/usr/bin/python3.8'
+
 " Random configuration
 :let mapleader = "\<Space>"
 set number " Always show line numbers
